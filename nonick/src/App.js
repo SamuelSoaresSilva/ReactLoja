@@ -1,15 +1,10 @@
-
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="container">
-      <h1>NoNick</h1>
-      <div className="containerInput">
-        <input
-        type="text"
-        placeholder="Buscar"
-        />
-      </div>
+    <div className="App">
+      <Header />
+
     </div>
   );
 }
