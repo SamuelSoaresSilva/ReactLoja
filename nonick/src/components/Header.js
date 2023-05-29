@@ -3,8 +3,8 @@ export default function Header() {
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <nav class="col nav">
-                    <a class="nav-link text-dark border-end" href="#">Login</a>
-                    <a class="nav-link text-dark" href="#">Registre-se</a>
+                    <a class="nav-link text-dark border-end">Login</a>
+                    <a class="nav-link text-dark">Registre-se</a>
                 </nav>
 
                 <img class="text-center" src="./noNickLogo1.png" alt="Logo NoNick" width="250px"></img>
@@ -17,20 +17,20 @@ export default function Header() {
                 <div class="col justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="cart_.png" alt="Carrinho"></img>
+                            <a class="nav-link">
+                                <img src="src/components/Header/cart_.png" alt="Carrinho"></img>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="heart_" alt="Amei"></img>
+                            <a class="nav-link">
+                                <img src="src/components/Header/heart_.png" alt="Amei"></img>
                             </a>
                         </li>
                     </ul>
                     <form class="d-flex ms-3" role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search"></input>
                         <button class="btn" type="submit">
-                            <img src="./components/Header/search_.png" alt="Pesquisa"></img>
+                            <img src="src/components/Header/search_.png" alt="Pesquisa"></img>
                         </button>
                     </form>
                 </div>

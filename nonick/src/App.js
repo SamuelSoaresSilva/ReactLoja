@@ -1,5 +1,5 @@
-import Header from "./components/Header/Header.js";
-import Section from "./components/Section/Section.js";
+import Header from "./components/Header";
+import Section from "./components/Section";
 
 export default function App() {
   return (
