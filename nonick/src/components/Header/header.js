@@ -30,7 +30,7 @@ export default function Headers() {
                     <form class="d-flex ms-3" role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search"></input>
                         <button class="btn" type="submit">
-                            <img src="..\Repositórios GitHub\Sites-Web-Exemplos\ReactLoja\nonick\public\Icons\search_.png" alt="Pesquisa"></img>
+                            <img src="./components/Header/search_.png" alt="Pesquisa"></img>
                         </button>
                     </form>
                 </div>
