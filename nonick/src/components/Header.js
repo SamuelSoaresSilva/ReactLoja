@@ -1,3 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
+import Cart from "../assets/cart_.png"
+import Search from "../assets/search_.png"
+import Heart from "../assets/heart_.png"
+import Logo from "../assets/noNickLogo1.png"
+
 export default function Header() {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -7,7 +14,7 @@ export default function Header() {
                     <a class="nav-link text-dark">Registre-se</a>
                 </nav>
 
-                <img class="text-center" src="./noNickLogo1.png" alt="Logo NoNick" width="250px"></img>
+                <img class="text-center" src={Logo} alt="Logo NoNick" width="250px"></img>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,19 +25,19 @@ export default function Header() {
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link">
-                                <img src="src/components/Header/cart_.png" alt="Carrinho"></img>
+                                <img src={Cart} alt="Carrinho"></img>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
-                                <img src="src/components/Header/heart_.png" alt="Amei"></img>
+                                <img src={Heart} alt="Amei"></img>
                             </a>
                         </li>
                     </ul>
                     <form class="d-flex ms-3" role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search"></input>
                         <button class="btn" type="submit">
-                            <img src="src/components/Header/search_.png" alt="Pesquisa"></img>
+                            <img src={Search} alt="Pesquisa"></img>
                         </button>
                     </form>
                 </div>
