@@ -1,7 +1,19 @@
-*{
+* {
 
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  
+
+}
+
+.bg-white-blue {
+  background: #E9EBF8;
+}
+
+.bg-marrom {
+  background: #C6C6C6;
+}
+
+.bg-imagem {
+  background: #E4E4E4;
 }
