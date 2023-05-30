@@ -6,6 +6,10 @@
 
 }
 
+.offcanvas {
+    flex-grow: 1!important;
+}
+
 .bg-white-blue {
   background: #E9EBF8;
 }
@@ -16,4 +20,9 @@
 
 .bg-imagem {
   background: #E4E4E4;
+}
+
+.Logo {
+  position: relative;
+
 }
