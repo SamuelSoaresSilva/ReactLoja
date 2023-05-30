@@ -1,9 +1,10 @@
 import Camisa from "../assets/Camisa.png"
 
 
+
 export default function Section() {
     return (
-        <section className="d-flex flex-column">
+        <section className="mx-5 d-flex flex-column">
             <h1 className="display-6 fw-bold">T-shirts</h1>
 
             <div className="d-flex flex-row">

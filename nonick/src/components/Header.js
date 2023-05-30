@@ -4,6 +4,7 @@ import Cart from "../assets/cart_.png"
 import Search from "../assets/search_.png"
 import Heart from "../assets/heart_.png"
 import Logo from "../assets/noNickLogo1.ico"
+import User from "../assets/User.png"
 
 export default function Header() {
     return (
@@ -23,6 +24,11 @@ export default function Header() {
 
                 <div className="col justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link">
+                                <img src={User} alt="User"></img>
+                            </a>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link">
                                 <img src={Cart} alt="Carrinho"></img>
