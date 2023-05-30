@@ -5,7 +5,7 @@ import Section from "./components/Section";
 import "./index.css"
 import Camisa from "./assets/Camisa.png"
 import Tenis from "./assets/tenis.png"
-
+import Footer from "./components/Footer";
 
 const ProdutosList = [
   {
@@ -117,7 +117,7 @@ export default function App() {
             })
           }
         </Section>
-
+        <Footer />
       </div>
     </div>
   );
