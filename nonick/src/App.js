@@ -4,6 +4,8 @@ import Produtos from "./components/Produtos";
 import Section from "./components/Section";
 import "./index.css"
 import Camisa from "./assets/Camisa.png"
+import Tenis from "./assets/tenis.png"
+
 
 const ProdutosList = [
   {
@@ -33,6 +35,51 @@ const ProdutosList = [
     descricao: "Oversized - Black",
     preco: "$ 69",
   },
+
+  {
+    image: Camisa,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+]
+
+const Produtos2List = [
+  {
+    image: Tenis,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+
+  {
+    image: Tenis,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+
+  {
+    image: Tenis,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+
+  {
+    image: Tenis,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+
+  {
+    image: Tenis,
+    alt: "Camisa",
+    descricao: "Oversized - Black",
+    preco: "$ 69",
+  },
+
 ]
 
 export default function App() {
@@ -55,6 +102,22 @@ export default function App() {
             })
           }
         </Section>
+
+        <Section title="Sneakers">
+          {
+            Produtos2List.map(function (item) {
+              return (
+                <Produtos
+                  image={item.image}
+                  alt={item.alt}
+                  descricao={item.descricao}
+                  preco={item.preco}
+                />
+              );
+            })
+          }
+        </Section>
+
       </div>
     </div>
   );
