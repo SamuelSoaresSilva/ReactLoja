@@ -1,12 +1,12 @@
 export interface ProdutoData {
-    id: number,
-    nome: String,
-    descricao: String,
-    preco: number,
-    qtdDisponivel: number,
-    categoria: String,
+    id?: number;
+    nome: string;
+    descricao: string;
+    preco: number;
+    qtdDisponivel: number;
+    categoria: string;
 }
 
-export interface ProdutoRespose {
-    data: ProdutoData[]
+export interface ProdutoResponse {
+    data: ProdutoData[];
 }

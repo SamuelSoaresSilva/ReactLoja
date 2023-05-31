@@ -1,11 +1,11 @@
 import { useQuery } from "react-query";
 import axios, { AxiosPromise } from "axios"
-import { ProdutoRespose } from "../components/interface/ProdutoData";
+import { ProdutoResponse } from "../components/interface/ProdutoData";
 
 const API_URL = "https://loja-online-production.up.railway.app/api"
 
-const fetchdata = async (): AxiosPromise<ProdutoRespose> => {
-    const response = axios.get<ProdutoRespose>(API_URL + "/produtos");
+const fetchdata = async (): AxiosPromise<ProdutoResponse> => {
+    const response = axios.get<ProdutoResponse>(API_URL + "/produtos");
     return response;
 }
 
