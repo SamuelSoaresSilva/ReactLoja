@@ -2,60 +2,51 @@
 import Instagram from "../assets/instagram_.png"
 import Twitter from "../assets/twitter_.png"
 import WhiteLogo from "../assets/logoWhite.png"
+import "../components/Footer.css"
+
 export default function Footer() {
 
     return (
-
-        <footer>
-            <div id="footer_content">
-                <div id="footer_contacts">
-                <h1>Logo</h1>
-                    <div id="footer_redes_sociais">
-                            <a href="#" class="footer_link" id="instagram">
-                                <img src={Instagram} alt=" "></img>
-                            </a>
-
-                            <a href="#" class="footer_link" id="twitter">
-                                <img src={Twitter} alt=" "></img>
-                            </a>
-
-                    </div>
-                
-                </div>
-            
-            <ul class="footer_list">
-
-                <li>
+    <><section class="container-rodape">
+            <div>
+                <img src={WhiteLogo} class="imagem-rodape" alt="logo"></img>
+                <div id="div1">
                     <h3>Suporte</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer_link">Email</a>
-                </li>
-                <li>
-                    <a href="#" class="footer_link">Telefone</a>
-                </li>
-            </ul>
+                    <a href="#" class="link-rodape">Telefone</a>
+                    <a href="#" class="link-rodape">Email</a>
+                </div>
+                <div id="div2">
+                    <h3 >Sobre a NoNick</h3>
+                    <a href="" class="link-rodape">Informações da empresa</a>
+                    <a href="" class="link-rodape">Contato</a>
+                </div>
+                <div>
+                    <h3 >Redes Sociais</h3>
+                    <button>
+                        <a href="" class="link-rodape">
+                            <img src={Instagram} alt="Instagram"></img>
+                        </a>
+                    </button>
+                    <button>
 
-            <ul class="footer_list">
-
-                <li>
-                    <h3>Sobre a NoNick</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer_link">Informações da empresa</a>
-                </li>
-                <li>
-                    <a href="#" class="footer_link">Devs</a>
-                </li>
-            </ul>
-            
-                <div id="footer_subscribe">
-
+                        <a href="" class="link-rodape">
+                            <img src={Twitter} alt="twitter"></img>
+                        </a>
+                    </button>
                 </div>
             </div>
-
+        </section>
+        <footer id="linha">
+            <div>
+                &copy;2023 NoNick
+            </div>
+                <div id="div-footer">
+                <a href="#">Política de privacidade</a>
+                <a href="#">Termos de uso</a>
+                
+                </div>
         </footer>
-        
+        </>    
     );
 
 }

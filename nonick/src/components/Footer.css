@@ -1,0 +1,116 @@
+  
+  
+  .container-rodape{
+          
+    background-color: #323232;
+    padding: 0;
+    margin: 80px 0 0 0; 
+    position: relative;
+    height: 214px;
+  }
+
+  div{
+    display: inline-block;
+    align-items: center;
+    color: #E9EBF8;
+  }
+  
+  #div1{
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+  
+  #div2{
+    margin-right: 100px;
+  }
+  
+h3{
+  
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  
+  }
+  
+  
+  .imagem-rodape{
+    float: left;
+    padding-bottom: 20px;
+    margin: 0px 100px 0px 0;
+    height: 262px
+    
+  }
+  .container-rodape a{
+  
+      text-decoration: none;
+      
+  }
+  .container-rodape a:hover{
+      color: rgb(0, 0, 0);
+  
+  }
+  
+  .link-rodape {
+      display: block; 
+      text-align:left ; 
+      padding: 4px;
+    color: #E9EBF8;
+      font-weight: bold; 
+      
+      
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  
+  
+  
+    button {
+      display: inline-block; /* Define o elemento como um bloco de nível de linha */
+      padding: 0; /* Adiciona um preenchimento ao botão */
+      background-color: transparent; /* Define a cor de fundo do botão */
+      border: none; /* Remove a borda padrão do botão */
+      border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+       /* Define a cor do texto do botão */
+      font-size: 16px; /* Define o tamanho da fonte do texto do botão */
+      text-decoration: none; /* Remove qualquer sublinhado no texto */
+      cursor: pointer; /* Transforma o cursor em uma mão quando o mouse passa sobre o botão */
+      
+    }
+    button img {
+      display: block;
+      margin-top: 9px; /* Adiciona uma margem à esquerda da imagem para separá-la do texto */
+    }
+  
+    #linha{
+      text-align: center;
+      border-top: 1px solid #E9EBF8;
+      
+    }
+  
+    footer{
+      text-align: center;
+      padding-top: 16px;
+      padding-right: 10px;
+      background-color: #323232;
+      height: 48px;
+      
+      
+  }
+  #div-footer{
+    float: right;
+  
+  }
+  footer div a{
+    padding-left: 10px;
+    font-weight: bolder; 
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E9EBF8;
+  }
+  div a:hover{
+    color: rgb(0, 0, 0);
+  }

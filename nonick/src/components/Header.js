@@ -9,10 +9,10 @@ export default function Header() {
         <nav className="px-lg-4 navbar navbar-expand-lg justify-content-between align-items-center bg-white-blue">
             <div className="container-fluid py-2">
                 <div className="col nav">
-                    <a className="nav-link text-dark border-end">Login</a>
-                    <a className="nav-link text-dark">Registre-se</a>
+                    <a href="#" className="nav-link text-dark border-end">Login</a>
+                    <a href="#" className="nav-link text-dark">Registre-se</a>
                 </div>
-                <img src={Logo} alt="Logo" className="" width={200}></img>
+                    <a href="#"><img src={Logo} alt="Logo" className="" width={200}></img></a>
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"

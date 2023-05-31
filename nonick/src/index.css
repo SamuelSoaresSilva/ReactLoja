@@ -7,32 +7,7 @@
   box-sizing: border-box;
   letter-spacing: 1px;
 }
-footer{
-  width: 100%;
-  color: #E9EBF8;
-}
-#footer_content{
-background-color: #323232;
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-padding: 3rem 3,5rem;
-}
-#footer_contacts h1{
-  margin-bottom: 0,75rem;
-}
-#footer_rede_social{
-  display: flex;
-  gap: 2rem;
-  margin-top: 1,5rem;
-}
-#footer_rede_social .footer-link{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2,5rem;
-  width: 2,5rem;
-  border-radius: 50%;
-}
+
 .offcanvas {
     flex-grow: 1!important;
 }
