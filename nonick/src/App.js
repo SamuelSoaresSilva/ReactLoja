@@ -1,16 +1,15 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import Routes from "./Rotas";
-import "./index.css"
+import "./index.css";
 
-import Header from "./components/Header";
+import Header from "./components/Header"
 import Options from "./components/Options";
-import Produtos from "./components/Produtos";
-import Section from "./components/Section";
+import Produtos from "./components/listaProdutos/Produtos";
+import Section from "./components/listaProdutos/Section";
+import Footer from "./components/Footer/Footer";
 
 import Camisa from "./assets/Camisa.png";
 import Tenis from "./assets/tenis.png";
-import Footer from "./components/Footer";
 
 const ProdutosList = [
   {
