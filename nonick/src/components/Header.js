@@ -12,7 +12,7 @@ export default function Header() {
                     <a href="#" className="nav-link text-dark border-end">Login</a>
                     <a href="#" className="nav-link text-dark">Registre-se</a>
                 </div>
-                    <a href="#"><img src={Logo} alt="Logo" className="" width={200}></img></a>
+                <a href="#"><img src={Logo} alt="Logo" className="" width={200}></img></a>
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
