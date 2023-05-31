@@ -1,4 +1,5 @@
 export interface ProdutoData {
+    id: number,
     nome: String,
     descricao: String,
     preco: number,
