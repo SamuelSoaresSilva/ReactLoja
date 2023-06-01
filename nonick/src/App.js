@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
-import Home from "./pages/Home";
+import Form from "./components/form/Form";
 
 export default function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Home />
+        <Form />
       </div>
     </BrowserRouter>
   );

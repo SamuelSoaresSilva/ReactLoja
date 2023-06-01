@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "react-query";
 import axios from "axios";
-import { ProdutoData } from "../components/interface/ProdutoData";
+import { ProdutoData } from "../interface/ProdutoData";
 
 const API_URL = "https://loja-online-production.up.railway.app/api";
 
@@ -9,7 +9,7 @@ const updateData = async (data: ProdutoData) => {
     return response.data;
 };
 
-export function useProdutoDataUpdate() {
+export default function useProdutoDataUpdate() {
     const queryClient = useQueryClient();
     const mutation = useMutation(updateData, {
         onSuccess: () => {

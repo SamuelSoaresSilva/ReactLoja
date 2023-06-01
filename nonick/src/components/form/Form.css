@@ -1,0 +1,14 @@
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bg-preto {
+    background: #323232;
+}
+
+.bg-cinza {
+    background: #C6C6C6;
+}

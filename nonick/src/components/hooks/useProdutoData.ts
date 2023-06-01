@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import axios, { AxiosPromise } from "axios"
-import { ProdutoResponse } from "../components/interface/ProdutoData";
+import { ProdutoResponse } from "../interface/ProdutoData";
 
 const API_URL = "https://loja-online-production.up.railway.app/api"
 
